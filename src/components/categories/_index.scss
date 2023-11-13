@@ -1,0 +1,25 @@
+@import "../../assets/styles/variables";
+
+.categories {
+  font-size: 18px;
+
+  & ul {
+    display: flex;
+  }
+
+  & li {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: $categories-background-color;
+    box-shadow: 0px 5px 5px 0px rgba(190, 190, 190, 0.5);
+    margin-right: 15px;
+  }
+
+  & .active {
+    background-color: $categories-active-background-color;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 850px) {
+}

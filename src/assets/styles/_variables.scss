@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700&family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap");
+
+$main-font-family: "Plus Jakarta Sans", sans-serif;
+
+$wrapper-background-color: rgba(255, 226, 169, 0.623);
+$main-background-color: rgba(255, 255, 255, 0.959);
+$border-color: #bd828227;
+
+$icons-background-color: rgba(238, 190, 31, 0.959);
+$buttons-background-color: rgba(238, 124, 31, 0.959);
+$basket-background-color: rgb(255, 255, 255);
+$search-background-color: rgb(255, 255, 255);
+
+$pagination-background-color-active: #756969;
+$pagination-font-color: #756969;
+$pagination-font-color-active: white;
+$pagination-border-color: #756969;
+
+$product-item-background-color: white;
+
+$categories-background-color: rgba(253, 229, 148, 0.959);
+$categories-active-background-color: rgba(238, 190, 31, 0.959);
+
+$sort-font-color: rgba(238, 124, 31, 0.959);
+$sort-active-background-color: rgba(238, 190, 31, 0.959);
+$sort-popup-background-color: white;
+
+$price-font-color: rgba(238, 124, 31, 0.959);
+$button-font-color: rgba(255, 255, 255, 0.959);
+
+$main-background-color-grey: rgba(255, 233, 107, 0.192);
+$background-color-categories: rgba(255, 233, 107, 0.192);
+$background-color-categories-active: rgba(255, 233, 107, 0.356);
+$background-color-roosters-item: rgba(255, 255, 188, 0.192);
+
+$main-fc-color-black: rgb(29, 29, 29);
+$cart-fc-color-grey: rgb(110, 106, 106);
+
+//
+
+$main-fc-color-white: white;
+$main-fc-color-black: rgb(29, 29, 29);
+$fc-color-grey: rgb(110, 106, 106);
+$fc-color-black: rgb(58, 58, 58);
+$fc-color-red: rgb(255, 139, 139);
+$fc-color-button-red: rgb(241, 91, 91);
+
+$filter-grey-color: invert(51%) sepia(4%) saturate(0%) hue-rotate(338deg)
+  brightness(97%) contrast(88%);

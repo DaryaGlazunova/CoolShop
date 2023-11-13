@@ -1,0 +1,59 @@
+@import "../../assets/styles/variables";
+
+.sort {
+  &__line {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  &__svg {
+    margin-right: 5px;
+    & img {
+      width: 25px;
+      height: auto;
+    }
+  }
+
+  &__text {
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  &__Properties {
+    font-weight: 600;
+    color: $sort-font-color;
+    text-decoration: underline;
+  }
+
+  &__popup {
+    position: absolute;
+    right: -20%;
+    margin-top: 150px;
+
+    ul {
+      font-size: 17px;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+      border-radius: 10px;
+      background-color: $sort-popup-background-color;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.329);
+    }
+    & li {
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    & .active {
+      background-color: $sort-active-background-color;
+      color: $sort-popup-background-color;
+    }
+  }
+}

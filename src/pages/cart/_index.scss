@@ -1,0 +1,63 @@
+@import "../../assets/styles/variables";
+.cart {
+  &__container {
+    padding: 40px 0;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    & h2 {
+      color: $main-fc-color-black;
+      font-size: 22px;
+      margin: 0;
+    }
+    & img {
+      width: 30px;
+    }
+  }
+
+  &__empty-cart {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    & img {
+      width: 20px;
+    }
+    & p {
+      color: $main-fc-color-black;
+    }
+  }
+
+  &_bottom {
+    margin-top: 50px;
+  }
+
+  &__total-amount {
+    margin-bottom: 15px;
+    font-size: 17px;
+    & span {
+      color: $buttons-background-color;
+      font-weight: 600;
+    }
+  }
+
+  &__make-order-btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    color: $button-font-color;
+    background-color: $buttons-background-color;
+  }
+}

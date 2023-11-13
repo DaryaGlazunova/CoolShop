@@ -1,0 +1,16 @@
+.notfound {
+  text-align: center;
+  padding: 100px 0;
+  height: 100%;
+
+  & h1 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  & img {
+    width: 500px;
+    border-radius: 50%;
+  }
+}
