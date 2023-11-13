@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header__container container">
-        <Link to="/Products">
+        <Link to="/">
           <img className="header__logo" src={logoSvg} alt="Pizza logo" />
         </Link>
 
@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
           <Search />
         </div>
 
-        <Link to="/Products/cart">
+        <Link to="/cart">
           <div className="header__basket basket">
             <div className="basket__order-price">
               {totalPrice.toFixed(1)}
