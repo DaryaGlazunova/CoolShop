@@ -1,4 +1,4 @@
-https://astounding-tanuki-4ed4c0.netlify.app/
+Демо: https://astounding-tanuki-4ed4c0.netlify.app/
 
 
 
